@@ -1,10 +1,3 @@
-var swapArrayElements = function(arr, indexA, indexB) {
-    var temp = arr[indexA];
-    arr[indexA] = arr[indexB];
-    arr[indexB] = temp;
-    // console.log("index1", arr[indexA], arr[indexB])
-};
-
 function moveNagativeElemetAside(arr, n){
     // arr = array
     // n = length of array;
